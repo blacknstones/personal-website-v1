@@ -73,22 +73,21 @@ h1 {
 
 .header-logo {
   box-sizing: border-box;
-  display: block;
-  height: 10vh;
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  padding: 5.5vh 0 5.5vh 2vh;
   position: relative;
   text-align: center;
-  margin: 20px 0 0 0;
-  width: 10vh;
-  padding-top: 5px;
 }
 
 .header-logo img {
-  width: 4.3vh;
+  width: 23px;
 }
 
 .header-nav {
   float: right;
-  padding: 5.5vh 60px 0 0;
+  padding: 5.5vh 60px 3vh 0;
 }
 
 .header-nav li {
@@ -129,4 +128,23 @@ h1 {
   color: #fff;
   padding-top: 15%;
   text-align: center;
+}
+
+/*Media query*/
+
+@media (max-width: 800px) {
+  html {
+    padding: 0;
+  }
+  .header-nav {
+    padding: 2vh 1em 0 0;
+    margin-left: 0.25em;
+  }
+  .nav-links a {
+    font-size: 2.4vw;
+  }
+  .header-logo {
+    padding: 0;
+    margin: 2vh;
+  }
 }
