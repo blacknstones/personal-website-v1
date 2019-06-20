@@ -1,41 +1,77 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-  <title>Home-Yanwei Zhu</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="static/style.css" type="text/css" rel="stylesheet">
-  <link href="static/favicon.png" rel="shortcut icon">
-  <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="image/black.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a60e7e5f2.js"></script>
 
+    <title>home-Yanwei Zhu</title>
 </head>
 
 <body>
-  <header class="header">
-    <nav>
-      <ul class="header-nav nav-links">
-        <li><a href="/">HOME</a></li>
-        <li><a href="">WRITING</a></li>
-        <li><a href="">DRAWING</a></li>
-        <li><a href="">CODING</a></li>
-        <li><a href="">CONTACT</a></li>
-      </ul>
-    </nav>
-    <a href="/" class="header-logo"><img src="/static/logo.png" alt="Yanwei Zhu"></a>
-  </header>
+    <header class="page-header header container-fluid">
+        <div class="overlay">
+            <nav class="navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="image/white.png" width="30" height="30" class="d-inline-block align-top" alt="Yanwei Zhu Logo"> Yanwei Zhu
+                </a>
 
-  <div class="hero-home">
-    <h1>YANWEI ZHU</h1>
-  </div>
+                <span class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+
+
+                <ul id="main-nav">
+                    <li>
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">GALLERY</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="hero-home">
+                <h1 class="hero-title">Hi, I'm Yanwei.</h1>
+                <p>A professional in Sociology and Gender Studies & a self-motivated programmer.</p>
+            </div>
+        </div>
+
+
+
+        </div>
+        </div>
+    </header>
+
+
 </body>
 
-<!--<div class="intro">
-  <h2>Hi! I'm Yanwei.</h2>
-  <p>I am into everything about Gender, equality and empowerment.<br> I study sociology and gender studies, also just
-    get into the world of coding.(“Hello, World!”)</p>
-</div>-->
+
+
+<script>
+    let toggler = document.getElementById('nav-toggle');
+    let mainNav = document.getElementById('main-nav');
+
+    toggler.addEventListener('click', () => {
+        if (mainNav.style.display === 'none') {
+            mainNav.style.display = 'flex';
+        } else {
+            mainNav.style.display = 'none';
+        }
+    });
+</script>
 
 <!-- some links
   <a href="https://www.instagram.com/blacknstones/" target="_blank">Instagram</a>
