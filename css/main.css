@@ -137,6 +137,15 @@
     .page-content a:hover {
         text-shadow: 0px 0px 15px rgb(130, 165, 179);
     }
+    
+    .content-heading {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    #cite-heading {
+        text-align: right;
+    }
     /* .intro #avatar {
     display: block;
     margin: 10vh auto 10vh auto;
