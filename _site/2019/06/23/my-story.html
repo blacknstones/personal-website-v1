@@ -1,1 +1,94 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="/image/black.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://kit.fontawesome.com/9a60e7e5f2.js"></script>
+
+    <title>home-Yanwei Zhu</title>
+</head>
+
+<body>
+    <header class="page-header header container-fluid">
+    <nav class="navbar">
+        <a class="navbar-brand" href="/index.html">
+            <img src="image/white.png" width="30" height="30" class="d-inline-block align-top" alt="Yanwei Zhu Logo"> Yanwei Zhu
+        </a>
+
+        <span class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+
+
+        <ul id="main-nav">
+            <li>
+                <a class="nav-link" href="/">HOME</a>
+            </li>
+            <li>
+                <a class="nav-link" href="/gallery/index.html">GALLERY</a>
+            </li>
+            <li>
+                <a class="nav-link" href="/blog/index.html">BLOG</a>
+            </li>
+            <li>
+                <a class="nav-link" href="/portfolio/index.html">PORTFOLIO</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</header> 
+ 
+    <footer class="footer">
+    <ul class="social-link">
+        <li>
+            <a href="https://github.com/blacknstones">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <a href="https://www.instagram.com/arduensam/?hl=en">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <li>
+            <a href="https://www.linkedin.com/in/yanwei-zhu-3972a917b/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="credits">
+        © 2019 Yanwei Zhu, all rights reserved. Made with <i class="fas fa-cat"></i> and <i class="fas fa-heart"></i>
+    </div>
+</footer>
+</body>
+
+<script>
+    let toggler = document.getElementById('nav-toggle');
+    let mainNav = document.getElementById('main-nav');
+
+    toggler.addEventListener('click', () => {
+        if (mainNav.style.display === 'none') {
+            mainNav.style.display = 'flex';
+        } else {
+            mainNav.style.display = 'none';
+        }
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
